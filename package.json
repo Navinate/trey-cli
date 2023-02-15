@@ -1,7 +1,8 @@
 {
   "name": "trey-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My first CLI project",
+  "type": "module",
   "main": "bin/index.js",
   "bin": {
     "trey-cli": "./bin/index.js"
@@ -17,6 +18,7 @@
   "author": "Trey Cluff",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.2.0",
     "yargs": "^17.6.2"
   }
 }
